@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CRM.audiCars" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAhCAASAAABDAEACAAABGIMA5AAAAETAEASBAAIA=</HashCode>
+      <FileName>audiCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.availableCars" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAIBAAACAAARAAAACAQAACAIgrAAAgwFAXQABQQAA=</HashCode>
+      <FileName>availableCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.bill" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9yAAAAAAASAAABBSEACAIABCIIAAAAAAEGAEAQBAAAA=</HashCode>
+      <FileName>bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.bmwCars" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAhCAASAAABCAEACAAABGIMA5ACAAETAEASBAAIA=</HashCode>
+      <FileName>bmwCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.bookedCars" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bookedCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.bookingDetails" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAAAAAAASAAABCCEACAIABCYIAIAAAAGGBEAQBAGAA=</HashCode>
+      <FileName>bookingDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.cancelBooking" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cancelBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.ferrariCars" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAhCAASAAARCAEACAAABGIMA4AAAAETAEASBAAIA=</HashCode>
+      <FileName>ferrariCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.hondaCars" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAhAAASAAABCAEACAAABCIMA4AAAAECAAAQBAAIA=</HashCode>
+      <FileName>hondaCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.hyundaiCars" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAACAAAAAAAACAAAACAEA4AAAAAAAAAABAAAA=</HashCode>
+      <FileName>hyundaiCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.jaguarCars" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAhCAASAAABCAEACAAgBGIMA4AAAAETAEASBAAIA=</HashCode>
+      <FileName>jaguarCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.lexusCars" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAhAAASAAABCAEACAAABCIMA4AAAAECAAAQBAAIA=</HashCode>
+      <FileName>lexusCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Login" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAAAYAAAAEGAAAIBAAAA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.mainForm" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAACAAAAAAAACAQAACAMA4AAAAAHAMAABAAAA=</HashCode>
+      <FileName>mainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.mazdaCars" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAhAAASAAABCAEACAAABCIMA4AAAAECAAAQBAAIA=</HashCode>
+      <FileName>mazdaCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.mercedesCars" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAhAAASAAABCAEACAAABCIMA4AAAAECAAAQBAAIA=</HashCode>
+      <FileName>mercedesCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.User" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAkMAIgAwQAihAAAIgAEQAAIEgABEAAAEAAAAAIg=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Vehical" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQBQoBCDCAgBACBAEgEIBIAABABAEGAIAAAAAQIAAQ=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Customer" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAIgCgQAigAAAAgAAAAAIEAABEEAAEAwAAAAg=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Booking" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEBQAAIAAAAAAABIAAQAAACAAAAAABQAAAAAAAAIA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.databaseHandler">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACgIAQAAAAAAggAAAgBAQAAAAAQCAIQQAQAAAABAAg=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Controller" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAA1IAAAAAAQAAACAAAAAABAAAAAAAAAQAAIAAABAIA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Program" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.registerForm" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAASAAAACQAACAAABCIMw7AAAAEACAAIAAQAA=</HashCode>
+      <FileName>registerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.settings" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.viewHistory" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>viewHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.volvoCars" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAhAAASAAABCAEACAAABCIMA4AAAAECAAAQBAAIA=</HashCode>
+      <FileName>volvoCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

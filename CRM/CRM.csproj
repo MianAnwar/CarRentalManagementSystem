@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F4A3E93-A33E-45B8-8AB0-28E5F1C47324}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CRM</RootNamespace>
+    <AssemblyName>CRM</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audiCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="audiCars.Designer.cs">
+      <DependentUpon>audiCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="availableCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="availableCars.Designer.cs">
+      <DependentUpon>availableCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill.Designer.cs">
+      <DependentUpon>bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bmwCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bmwCars.Designer.cs">
+      <DependentUpon>bmwCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookedCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookedCars.Designer.cs">
+      <DependentUpon>bookedCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookingDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookingDetails.Designer.cs">
+      <DependentUpon>bookingDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cancelBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelBooking.Designer.cs">
+      <DependentUpon>cancelBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ferrariCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ferrariCars.Designer.cs">
+      <DependentUpon>ferrariCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hondaCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hondaCars.Designer.cs">
+      <DependentUpon>hondaCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hyundaiCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hyundaiCars.Designer.cs">
+      <DependentUpon>hyundaiCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jaguarCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jaguarCars.Designer.cs">
+      <DependentUpon>jaguarCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lexusCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lexusCars.Designer.cs">
+      <DependentUpon>lexusCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mazdaCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mazdaCars.Designer.cs">
+      <DependentUpon>mazdaCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mercedesCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mercedesCars.Designer.cs">
+      <DependentUpon>mercedesCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registerForm.Designer.cs">
+      <DependentUpon>registerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewHistory.Designer.cs">
+      <DependentUpon>viewHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="volvoCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="volvoCars.Designer.cs">
+      <DependentUpon>volvoCars.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="audiCars.resx">
+      <DependentUpon>audiCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="availableCars.resx">
+      <DependentUpon>availableCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill.resx">
+      <DependentUpon>bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bmwCars.resx">
+      <DependentUpon>bmwCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookedCars.resx">
+      <DependentUpon>bookedCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookingDetails.resx">
+      <DependentUpon>bookingDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelBooking.resx">
+      <DependentUpon>cancelBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ferrariCars.resx">
+      <DependentUpon>ferrariCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hondaCars.resx">
+      <DependentUpon>hondaCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hyundaiCars.resx">
+      <DependentUpon>hyundaiCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jaguarCars.resx">
+      <DependentUpon>jaguarCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lexusCars.resx">
+      <DependentUpon>lexusCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mazdaCars.resx">
+      <DependentUpon>mazdaCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mercedesCars.resx">
+      <DependentUpon>mercedesCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="registerForm.resx">
+      <DependentUpon>registerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewHistory.resx">
+      <DependentUpon>viewHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="volvoCars.resx">
+      <DependentUpon>volvoCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
